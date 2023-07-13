@@ -1,0 +1,1378 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    background-color: black;
+    color: white;
+}
+body{
+	overflow-x: hidden;
+}
+.div1 {
+	
+	background-image:url(bg5n.avif);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	
+
+}
+
+.photo {
+	margin-top: 90px;
+	margin-left: 90px;
+	height: 400px;
+	width: 400px;
+	 border: 0px solid white;
+	border-radius: 50%; 
+	display: inline;
+	box-shadow:1px 1px 50px 8px white;
+	transition: transform 0.3s;
+} 
+.photo:hover{
+	transform: scale(1.1);
+}
+
+.text {
+	margin-left: 100px;
+	font-size: 130%;
+	color: beige;
+}
+
+nav {
+	float: right;
+	font-size: larger
+
+
+}
+
+.tyjs{
+	font-weight: bolder;
+	color: yellow;
+	font-family:  cursive;
+}
+.navs a{
+	color:white;
+	font-size:110%;
+	font-weight: bold;
+	transition: box-shadow 0.2s;
+
+}
+.navs a:hover{
+	color: darkturquoise;
+	border: 0px solid white;
+	border-radius: 10px;
+	box-shadow:1px 1px 5px 2px white;
+}
+
+
+
+.links {
+	margin-right: 75px;
+	
+	text-decoration: none;
+}
+.linkedin{
+	color:rgb(10, 102, 194);
+	transition: box-shadow 0.2s;
+	transition: border 0.2s;
+	transition: transform 0.3s;
+
+}
+.github{
+	color: #bd2c00;
+	transition: box-shadow 0.2s;
+	transition: border 0.2s;
+	transition: transform 0.3s;
+}
+.insta{
+	color: blue;
+	transition: box-shadow 0.2s;
+	transition: border 0.2s;
+	transition: transform 0.3s;
+}
+.fb{
+	color: #3b5998;
+	transition: box-shadow 0.2s;
+	transition: border 0.2s;
+	transition: transform 0.3s;
+}
+.intro {
+	display: inline-block;
+	float: right;
+	margin-top: -15%;
+
+
+}
+
+.line1 {
+	margin-top: 1%;
+	margin-right: 550px;
+	line-height: 20px;
+	font-size: 250%;
+	color:white;
+
+}
+
+.line2 {
+	margin-top: 1%;
+	margin-left: 40px;
+	font-size: 250%;
+	color:white;
+
+}
+
+.about {
+	
+	color: aliceblue;
+	font-family: 'Pangolin', cursive;
+
+
+}
+.about-me{
+	line-height: 1;
+	font-family: 'Pangolin', cursive;
+}
+
+.contact-links {
+	font-size: 170%;
+	margin-top: 1%;
+	margin-left: 200px;
+}
+.contact-links:hover{
+	cursor: pointer;
+	
+
+}
+.linkedin:hover, .github:hover,.fb:hover,.insta:hover{
+	box-shadow:1px 1px 5px 2px white;
+	border: 0px solid white;
+	border-radius: 5px;
+	transform: scale(1.3);
+
+}
+
+
+.div2{
+    height: 100%;
+    width: 100%;
+    margin-top: 8%;
+    color: black;
+    background-color: black;
+    
+
+
+    
+
+}
+
+
+
+
+.div2-line1 {
+    
+    color:white;
+    font-size: 200%;
+    margin-left: 50%;
+
+}
+
+.div2-line2 {
+    color: white;
+    font-size: 150%;
+    margin-left: 38%;
+	font-family: 'Pangolin', cursive;
+
+}
+
+.hr {
+    color:white;
+    font-size: 130%;
+    margin-left: 50%;
+}
+
+.cir-1,
+.cir-2 {
+    width: 400px;
+    height: 400px;
+    border: 2px solid white;
+    margin-left: 15%;
+    border-radius: 50%;
+    color:white;
+    animation-name: circles;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+
+
+}
+
+.html,
+.css,
+.bootstrap,
+.javascript,
+.react,
+.jquery,
+.expressjs,
+.nodejs,
+.mongodb,
+.api,
+.mongoose,
+.git,
+.ejs {
+    width: 60px;
+    height: 60px;
+    border: 3px solid white;
+    border-radius: 50%;
+	overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.html {
+    margin-left: 15%;
+}
+
+.css {
+    margin-left: 90%;
+}
+
+.bootstrap {
+    margin-left:-6%;
+}
+
+.javascript {
+    margin-left: 90%;
+    /* margin-top: 4%; */
+}
+
+.bootstrap {
+    margin-left: -4%;
+    margin-top: 4%;
+}
+
+.react {
+    margin-left: -2%;
+    margin-top: 4%;
+}
+
+.jquery {
+    margin-left: 38%;
+    margin-top: -6%;
+    
+}
+
+.expressjs {
+    margin-left: 70%;
+    margin-bottom: 9%;
+}
+
+.nodejs {
+    margin-left: 4%;
+    margin-top: -20%;
+}
+
+.mongodb {
+    margin-left: 90%;
+}
+
+.api {
+
+    margin-left: -6%;
+    margin-top: 4%;
+}
+
+.mongoose {
+    margin-left: 90%;
+    margin-top: 4%;
+}
+
+.git {
+    margin-left: 10%;
+    margin-top: 4%;
+}
+
+.ejs {
+     margin-top:-8% ;
+}
+
+@keyframes circles {
+    from {
+        transform: rotate(0);
+
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+
+}
+
+.div3 {
+		
+    margin-bottom: 15%;
+    background-color: black;
+    background-size: cover;
+    
+}
+
+.div3-text {
+    color: white;
+    margin-left: 21%;
+    line-height: 2;
+    font-size: 18px;
+    margin-bottom: 5%;
+	font-family: 'Pangolin', cursive;
+}
+.box-1,.box2,.box3{
+	transition:box-shadow 0.3s;
+	transition:border 0.3s;
+	transition:border-radius 0.3s;
+    transition: transform 0.3s;
+	box-shadow:1px 1px 5px 1px white;
+
+
+
+}
+
+.box-1:hover,.box2:hover,.box3:hover{
+	border: 0px solid white;
+	border-radius: 10px;
+	transform: scale(1.3);
+	box-shadow:1px 1px 10px 1px white;
+}
+.box-1{
+	margin-left: 10%;
+}
+
+.div3-head {
+    color: white;
+    font-size: 200%;
+    margin-left: 42%;
+    margin-top: 5%;
+
+
+}
+.head {
+    color: white;
+    margin-left: 48%;
+    font-size: 200%;
+}
+
+.about-me {
+    color: white;
+    margin: 4%;
+    line-height: 2;
+    transition: transform 0.3s;
+
+}
+.about-me:hover{
+	transform: scale(1.03);
+}
+
+
+.contact-me {
+    color: white;
+    margin-left: 47%;
+    font-size: 200%;
+
+}
+
+.name,
+.email,
+.msg {
+    margin-top: 5%;
+    margin-left: 45%;
+    width: 300px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 10%;
+	box-shadow:1px 1px 5px 1px white;
+	transition: transform 0.4s;
+}
+.name:hover,
+.email:hover,
+.msg:hover{
+	transform: scale(1.06);
+}
+
+.btn {
+
+    margin-left: 54%;
+    font-size: 150%;
+    border: 1px solid white;
+    border-radius: 15px;
+	width: 7%;
+	transition: box-shadow 0.4s;
+	transition: transform 0.4s;
+
+}
+.btn:hover{
+	box-shadow:1px 1px 5px 1px white;
+	transform: scale(0.95);
+	cursor: pointer;
+
+}
+
+
+.div6 {
+    margin-top: 5%;
+    
+
+}
+
+.footer {
+    margin-left: 50%;
+    color:white;
+
+}
+
+
+
+
+
+                                   /*  css for responsive web */
+   
+
+	/* Big tablet to 1300px						    */
+	@media only screen and (max-width:1300px){
+
+	}
+
+
+
+
+
+
+ /* small tablet to big tablet :from 768px to 1023px */
+ @media only screen and (max-width:1023px){
+        .text{
+			color: #3b5998;
+		}
+		.intro{
+			margin-top: 10%;
+			margin-bottom: 10%;
+		}
+		.cir-1,.cir-2{
+			width: 300px;
+			height: 300px;
+			border: 2px solid white;
+			
+			border-radius: 50%;
+
+		}
+		.div2{
+			margin-bottom: 15%;
+		}
+		.media{
+			margin-left: 30%;
+		}
+		.box-1,.box2,.box3{
+			width: 200px;
+			
+			height: 200px;
+		}
+		.head{
+			margin-right: 1%;
+		}
+		.contact-me{
+			margin-left: 50%;
+		}
+		.btn {
+
+			width: 15%;
+			margin-left: 60%;
+		
+		}
+		.div5{
+			margin-right: 15%;
+		}
+ }
+
+
+
+
+
+
+
+
+
+
+ /* small phones to small tablets:from 481px to 767px */
+ @media only screen and(max-width:767px){
+	.intro{
+		display: inline-block;
+		margin-left: 100px;
+
+		
+	}
+
+
+ }
+
+
+
+
+
+
+
+/* small phones:from 0px to 480px */
+@media only screen and (max-width:480px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------CSS for responsive web ---------------------------------- */
+
+	/*  SECTIONS  ============================================================================= */
+
+	.section {
+		clear: both;
+		padding: 0px;
+		margin: 0px;
+	}
+
+	/*  GROUPING  ============================================================================= */
+
+	.row {
+		zoom: 1;
+		/* For IE 6/7 (trigger hasLayout) */
+	}
+
+	.row:before,
+	.row:after {
+		content: "";
+		display: table;
+	}
+
+	.row:after {
+		clear: both;
+	}
+
+	/*  GRID COLUMN SETUP   ==================================================================== */
+
+	.col {
+		display: block;
+		float: left;
+		margin: 1% 0 1% 1.6%;
+	}
+
+	.col:first-child {
+		margin-left: 0;
+	}
+
+	/* all browsers except IE6 and lower */
+
+
+	/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
+
+	@media only screen and (max-width: 480px) {
+		.col {
+			/*margin: 1% 0 1% 0%;*/
+			margin: 0;
+		}
+	}
+
+
+	/*  GRID OF TWO   ============================================================================= */
+
+
+	.span-2-of-2 {
+		width: 100%;
+	}
+
+	.span-1-of-2 {
+		width: 49.2%;
+	}
+
+	/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+	@media only screen and (max-width: 480px) {
+		.span-2-of-2 {
+			width: 100%;
+		}
+
+		.span-1-of-2 {
+			width: 100%;
+		}
+	}
+
+
+	/*  GRID OF THREE   ============================================================================= */
+
+
+	.span-3-of-3 {
+		width: 100%;
+	}
+
+	.span-2-of-3 {
+		width: 66.13%;
+	}
+
+	.span-1-of-3 {
+		width: 32.26%;
+	}
+
+
+	/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+	@media only screen and (max-width: 480px) {
+		.span-3-of-3 {
+			width: 100%;
+		}
+
+		.span-2-of-3 {
+			width: 100%;
+		}
+
+		.span-1-of-3 {
+			width: 100%;
+		}
+	}
+
+	/*  GRID OF FOUR   ============================================================================= */
+
+
+	.span-4-of-4 {
+		width: 100%;
+	}
+
+	.span-3-of-4 {
+		width: 74.6%;
+	}
+
+	.span-2-of-4 {
+		width: 49.2%;
+	}
+
+	.span-1-of-4 {
+		width: 23.8%;
+	}
+
+
+	/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+	@media only screen and (max-width: 480px) {
+		.span-4-of-4 {
+			width: 100%;
+		}
+
+		.span-3-of-4 {
+			width: 100%;
+		}
+
+		.span-2-of-4 {
+			width: 100%;
+		}
+
+		.span-1-of-4 {
+			width: 100%;
+		}
+	}
+
+
+	/*  GRID OF FIVE   ============================================================================= */
+
+
+	.span-5-of-5 {
+		width: 100%;
+	}
+
+	.span-4-of-5 {
+		width: 79.68%;
+	}
+
+	.span-3-of-5 {
+		width: 59.36%;
+	}
+
+	.span-2-of-5 {
+		width: 39.04%;
+	}
+
+	.span-1-of-5 {
+		width: 18.72%;
+	}
+
+
+	/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+	@media only screen and (max-width: 480px) {
+		.span-5-of-5 {
+			width: 100%;
+		}
+
+		.span-4-of-5 {
+			width: 100%;
+		}
+
+		.span-3-of-5 {
+			width: 100%;
+		}
+
+		.span-2-of-5 {
+			width: 100%;
+		}
+
+		.span-1-of-5 {
+			width: 100%;
+		}
+	}
+
+
+	/*  GRID OF SIX   ============================================================================= */
+
+
+	.span-6-of-6 {
+		width: 100%;
+	}
+
+	.span-5-of-6 {
+		width: 83.06%;
+	}
+
+	.span-4-of-6 {
+		width: 66.13%;
+	}
+
+	.span-3-of-6 {
+		width: 49.2%;
+	}
+
+	.span-2-of-6 {
+		width: 32.26%;
+	}
+
+	.span-1-of-6 {
+		width: 15.33%;
+	}
+
+
+	/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+	@media only screen and (max-width: 480px) {
+		.span-6-of-6 {
+			width: 100%;
+		}
+
+		.span-5-of-6 {
+			width: 100%;
+		}
+
+		.span-4-of-6 {
+			width: 100%;
+		}
+
+		.span-3-of-6 {
+			width: 100%;
+		}
+
+		.span-2-of-6 {
+			width: 100%;
+		}
+
+		.span-1-of-6 {
+			width: 100%;
+		}
+	}
+
+
+
+	/*  GRID OF SEVEN   ============================================================================= */
+
+
+	.span-7-of-7 {
+		width: 100%;
+	}
+
+	.span-6-of-7 {
+		width: 85.48%;
+	}
+
+	.span-5-of-7 {
+		width: 70.97%;
+	}
+
+	.span-4-of-7 {
+		width: 56.45%;
+	}
+
+	.span-3-of-7 {
+		width: 41.94%;
+	}
+
+	.span-2-of-7 {
+		width: 27.42%;
+	}
+
+	.span-1-of-7 {
+		width: 12.91%;
+	}
+
+
+	/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+	@media only screen and (max-width: 480px) {
+		.span-7-of-7 {
+			width: 100%;
+		}
+
+		.span-6-of-7 {
+			width: 100%;
+		}
+
+		.span-5-of-7 {
+			width: 100%;
+		}
+
+		.span-4-of-7 {
+			width: 100%;
+		}
+
+		.span-3-of-7 {
+			width: 100%;
+		}
+
+		.span-2-of-7 {
+			width: 100%;
+		}
+
+		.span-1-of-7 {
+			width: 100%;
+		}
+	}
+
+
+	/*  GRID OF EIGHT   ============================================================================= */
+
+
+	.span-8-of-8 {
+		width: 100%;
+	}
+
+	.span-7-of-8 {
+		width: 87.3%;
+	}
+
+	.span-6-of-8 {
+		width: 74.6%;
+	}
+
+	.span-5-of-8 {
+		width: 61.9%;
+	}
+
+	.span-4-of-8 {
+		width: 49.2%;
+	}
+
+	.span-3-of-8 {
+		width: 36.5%;
+	}
+
+	.span-2-of-8 {
+		width: 23.8%;
+	}
+
+	.span-1-of-8 {
+		width: 11.1%;
+	}
+
+
+	/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+	@media only screen and (max-width: 480px) {
+		.span-8-of-8 {
+			width: 100%;
+		}
+
+		.span-7-of-8 {
+			width: 100%;
+		}
+
+		.span-6-of-8 {
+			width: 100%;
+		}
+
+		.span-5-of-8 {
+			width: 100%;
+		}
+
+		.span-4-of-8 {
+			width: 100%;
+		}
+
+		.span-3-of-8 {
+			width: 100%;
+		}
+
+		.span-2-of-8 {
+			width: 100%;
+		}
+
+		.span-1-of-8 {
+			width: 100%;
+		}
+	}
+
+
+	/*  GRID OF NINE   ============================================================================= */
+
+
+	.span-9-of-9 {
+		width: 100%;
+	}
+
+	.span-8-of-9 {
+		width: 88.71%;
+	}
+
+	.span-7-of-9 {
+		width: 77.42%;
+	}
+
+	.span-6-of-9 {
+		width: 66.13%;
+	}
+
+	.span-5-of-9 {
+		width: 54.84%;
+	}
+
+	.span-4-of-9 {
+		width: 43.55%;
+	}
+
+	.span-3-of-9 {
+		width: 32.26%;
+	}
+
+	.span-2-of-9 {
+		width: 20.97%;
+	}
+
+	.span-1-of-9 {
+		width: 9.68%;
+	}
+
+
+	/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+	@media only screen and (max-width: 480px) {
+		.span-9-of-9 {
+			width: 100%;
+		}
+
+		.span-8-of-9 {
+			width: 100%;
+		}
+
+		.span-7-of-9 {
+			width: 100%;
+		}
+
+		.span-6-of-9 {
+			width: 100%;
+		}
+
+		.span-5-of-9 {
+			width: 100%;
+		}
+
+		.span-4-of-9 {
+			width: 100%;
+		}
+
+		.span-3-of-9 {
+			width: 100%;
+		}
+
+		.span-2-of-9 {
+			width: 100%;
+		}
+
+		.span-1-of-9 {
+			width: 100%;
+		}
+	}
+
+
+	/*  GRID OF TEN   ============================================================================= */
+
+
+	.span-10-of-10 {
+		width: 100%;
+	}
+
+	.span-9-of-10 {
+		width: 89.84%;
+	}
+
+	.span-8-of-10 {
+		width: 79.68%;
+	}
+
+	.span-7-of-10 {
+		width: 69.52%;
+	}
+
+	.span-6-of-10 {
+		width: 59.36%;
+	}
+
+	.span-5-of-10 {
+		width: 49.2%;
+	}
+
+	.span-4-of-10 {
+		width: 39.04%;
+	}
+
+	.span-3-of-10 {
+		width: 28.88%;
+	}
+
+	.span-2-of-10 {
+		width: 18.72%;
+	}
+
+	.span-1-of-10 {
+		width: 8.56%;
+	}
+
+
+	/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+	@media only screen and (max-width: 480px) {
+		.span-10-of-10 {
+			width: 100%;
+		}
+
+		.span-9-of-10 {
+			width: 100%;
+		}
+
+		.span-8-of-10 {
+			width: 100%;
+		}
+
+		.span-7-of-10 {
+			width: 100%;
+		}
+
+		.span-6-of-10 {
+			width: 100%;
+		}
+
+		.span-5-of-10 {
+			width: 100%;
+		}
+
+		.span-4-of-10 {
+			width: 100%;
+		}
+
+		.span-3-of-10 {
+			width: 100%;
+		}
+
+		.span-2-of-10 {
+			width: 100%;
+		}
+
+		.span-1-of-10 {
+			width: 100%;
+		}
+	}
+
+
+	/*  GRID OF ELEVEN   ============================================================================= */
+
+	.span-11-of-11 {
+		width: 100%;
+	}
+
+	.span-10-of-11 {
+		width: 90.76%;
+	}
+
+	.span-9-of-11 {
+		width: 81.52%;
+	}
+
+	.span-8-of-11 {
+		width: 72.29%;
+	}
+
+	.span-7-of-11 {
+		width: 63.05%;
+	}
+
+	.span-6-of-11 {
+		width: 53.81%;
+	}
+
+	.span-5-of-11 {
+		width: 44.58%;
+	}
+
+	.span-4-of-11 {
+		width: 35.34%;
+	}
+
+	.span-3-of-11 {
+		width: 26.1%;
+	}
+
+	.span-2-of-11 {
+		width: 16.87%;
+	}
+
+	.span-1-of-11 {
+		width: 7.63%;
+	}
+
+
+	/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+	@media only screen and (max-width: 480px) {
+		.span-11-of-11 {
+			width: 100%;
+		}
+
+		.span-10-of-11 {
+			width: 100%;
+		}
+
+		.span-9-of-11 {
+			width: 100%;
+		}
+
+		.span-8-of-11 {
+			width: 100%;
+		}
+
+		.span-7-of-11 {
+			width: 100%;
+		}
+
+		.span-6-of-11 {
+			width: 100%;
+		}
+
+		.span-5-of-11 {
+			width: 100%;
+		}
+
+		.span-4-of-11 {
+			width: 100%;
+		}
+
+		.span-3-of-11 {
+			width: 100%;
+		}
+
+		.span-2-of-11 {
+			width: 100%;
+		}
+
+		.span-1-of-11 {
+			width: 100%;
+		}
+	}
+
+
+	/*  GRID OF TWELVE   ============================================================================= */
+
+	.span-12-of-12 {
+		width: 100%;
+	}
+
+	.span-11-of-12 {
+		width: 91.53%;
+	}
+
+	.span-10-of-12 {
+		width: 83.06%;
+	}
+
+	.span-9-of-12 {
+		width: 74.6%;
+	}
+
+	.span-8-of-12 {
+		width: 66.13%;
+	}
+
+	.span-7-of-12 {
+		width: 57.66%;
+	}
+
+	.span-6-of-12 {
+		width: 49.2%;
+	}
+
+	.span-5-of-12 {
+		width: 40.73%;
+	}
+
+	.span-4-of-12 {
+		width: 32.26%;
+	}
+
+	.span-3-of-12 {
+		width: 23.8%;
+	}
+
+	.span-2-of-12 {
+		width: 15.33%;
+	}
+
+	.span-1-of-12 {
+		width: 6.86%;
+	}
+
+
+	/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+	@media only screen and (max-width: 480px) {
+		.span-12-of-12 {
+			width: 100%;
+		}
+
+		.span-11-of-12 {
+			width: 100%;
+		}
+
+		.span-10-of-12 {
+			width: 100%;
+		}
+
+		.span-9-of-12 {
+			width: 100%;
+		}
+
+		.span-8-of-12 {
+			width: 100%;
+		}
+
+		.span-7-of-12 {
+			width: 100%;
+		}
+
+		.span-6-of-12 {
+			width: 100%;
+		}
+
+		.span-5-of-12 {
+			width: 100%;
+		}
+
+		.span-4-of-12 {
+			width: 100%;
+		}
+
+		.span-3-of-12 {
+			width: 100%;
+		}
+
+		.span-2-of-12 {
+			width: 100%;
+		}
+
+		.span-1-of-12 {
+			width: 100%;
+		}
+	}
